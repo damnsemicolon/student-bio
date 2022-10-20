@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Bio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Shannon Yap">
+        <meta name="description" content="A practice of CSS stylesheet.">
 
-<body>
-    <header>
-        <h1>Student Bio</h1>
-        <h2><strong>Name: </strong>Shannon Yap</h2>
-    </header>
-    <div>
-<!-- Image -->
-    <img src="image.jpeg" width=150px alt="Student Photo" />
-    <p>
-        Write a short paragraph or two about yourself, or use placeholder from <a href="https://lipsum.com">https://lipsum.com</a> <br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quos sed unde recusandae quisquam tempore tempora beatae quibusdam obcaecati aut dolore itaque, sapiente eveniet aperiam cum dicta doloremque excepturi iste.
-    </p>
-</div>
+        <title>Student Bio</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
 
-<!-- h2: Tier-2 Headline -->
-<h2>Contact Info</h2>
+    <body>
+    <!-- Header -->
+        <div id="header">
+            <header>
+                <h1>Student Bio</h1>
+                
+            </header>
+        </div>
 
-<!-- Unlisted List-->
-<strong>Email:</strong><a href="shannoninengland@gmail.com">shannoninengland@gmail.com</a><br>
-<strong>Github:</strong><a href="https://github.com/damnsemicolon/">damnsemicolon</a><br>
-<strong>Portfolio:</strong><a href="#">Placeholder Link</a>
-</body>
+    <!-- Name -->
+        <div id="myname">
+             <h2><strong>Name: </strong>Shannon Yap</h2>
+         </div>
+    <!-- Image -->
+        <div id="image">
+            <img src="assets/image.jpeg" width=150px alt="Student Photo" />
+        </div>
+    <!-- Self Introduction -->
+        <div id="intro-text">
+            <p>
+                Hello, world! I'm a coding beginner from Hong Kong who always had a facination in Coding. However, I always gave myself excuses to delay learning it. 
+            </p>
+
+            <p>
+                I have no experience in Coding and following the Prework itself is already a huge challenge for me.
+            </p>
+
+            <p>
+                Coming accross this course may be a life changing event. Hopefully through blood and sweat and toil and lots of camaraderie we'll get through this course together.
+            </p>
+        </div>
+
+    <!-- Contact Info -->
+
+        <div id="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+             <li><strong>Email:</strong><a href="mailto:shannoninengland@gmail.com">shannoninengland@gmail.com</a></li><br>
+             <li><strong>Github:</strong><a href="https://github.com/damnsemicolon/">damnsemicolon</a></li><br>
+             <li><strong>Portfolio:</strong><a href="#">Placeholder Link</a></li>
+            </ul>
+        </div>
+    </body>
 </html>
 

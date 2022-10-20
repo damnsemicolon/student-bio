@@ -1,0 +1,64 @@
+
+    /*  Commenting with forward-slash + asterisk 
+	and end with back-slash + asterisk. */
+		
+    /* header */
+
+    #header {
+      margin: 0px 0px 0px 0px;  /*t r b l (top right bottom left) */
+      font-size: 20px;              /*size of font  */
+      color: beige;               /* color of text  */
+      text-align: center;           /* Align the text to the center */
+      text-decoration: underline;   /* Underlines the text. */
+      background-color: navy;     /* Sets the background color. */
+    }
+
+    /* myname */
+    
+    #myname {
+      margin: 15px 0px 15px 0px;
+      width: 60%;
+      background-color:beige;
+      font-size: 100%;
+      text-align: left;
+    }
+
+    #image {
+      margin: 0 0 0 0;
+      width:15%;
+      height:40%;
+      background-color:beige;
+      margin-left: auto; /*what's this for*/
+      margin-right: auto; /*what's this for*/
+      float:left;
+      display: block; /*what's this for */
+    }
+
+    /* h3 heading tags */
+    
+    #intro-text {
+      border-style: solid;
+      border-width: 2px;
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      border-color: navy;
+      width:45%;
+      /*height:40%;*/
+      font-size:100%;  
+      float:left;
+    }
+
+    /* All unordered list tags */
+    
+    #contact-info {
+      text-align: left;
+      font-size: 100%;
+      /* Give an element a solid border. */
+      border-style: solid;
+      /* Render the border 5 pixels thick. */
+      border-width: 2px;
+      /* Include bullets in the content flow. */
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      border-color: navy;
+      list-style-position: inside;
+      float:left;
+    }
